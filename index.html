@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Leslie's Brain — Command Center</title>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Kalam:wght@300;400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Kalam:wght@300;400;700&family=Inter:wght@300;400;500;600&family=Gochi+Hand&display=swap" rel="stylesheet">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -574,8 +574,8 @@
         <div class="subtitle">HAHA Vending — Blackstone B130187</div>
       </div>
       <div class="agent-hero-status" id="yellow-status">
-        <div class="status-indicator s-red"></div>
-        <span>Needs Attention</span>
+        <div class="status-indicator s-yellow"></div>
+        <span>Awaiting first inventory count</span>
       </div>
     </div>
 
@@ -690,12 +690,12 @@
     </div>
 
     <div class="card">
-      <h3>Upcoming Bookings <span class="last-updated">pulled via Gmail + TidyCal</span></h3>
+      <h3>Upcoming Bookings <span class="last-updated">last known as of Apr 22, 2026 · not auto-refreshing yet</span></h3>
       <div style="padding: 18px; background: var(--bg-elev); border-left: 3px solid var(--sage); border-radius: 12px;">
         <div style="font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--text); margin-bottom: 4px; font-weight: 500;">Kathleen Van Sant</div>
         <div style="font-size: 13px; color: var(--text-soft); margin-bottom: 8px;">Non-Blackstone Peak · Single Machine — Saturday, May 16, 2026</div>
         <div style="font-size: 12px; color: var(--clay);">kgcardoza@gmail.com</div>
-        <div style="margin-top: 10px;"><span class="tag good">Confirmed</span></div>
+        <div style="margin-top: 10px;"><span class="tag good">Confirmed</span> <span style="font-size: 10px; color: var(--text-dim); letter-spacing: 1px; margin-left: 4px;">STATIC SNAPSHOT</span></div>
       </div>
     </div>
 
@@ -1373,9 +1373,18 @@
     if (el2) el2.textContent = total + 49;
     const statusEl = document.getElementById('yellow-status');
     if (statusEl) {
-      if (empty > 5) statusEl.innerHTML = '<div class="status-indicator s-red"></div><span>Needs Attention</span>';
-      else if (empty > 0) statusEl.innerHTML = '<div class="status-indicator s-yellow"></div><span>Low Stock</span>';
-      else statusEl.innerHTML = '<div class="status-indicator s-green"></div><span>Fully Stocked</span>';
+      // "empty === total" means every slot is 0, which usually means the user hasn't
+      // entered any counts yet — show a neutral "awaiting first count" instead of red alarm.
+      const itemCount = Object.keys(state.yellowInventory).length;
+      if (total === 0 && empty === itemCount) {
+        statusEl.innerHTML = '<div class="status-indicator s-yellow"></div><span>Awaiting first inventory count</span>';
+      } else if (empty > 5) {
+        statusEl.innerHTML = '<div class="status-indicator s-red"></div><span>Needs Attention</span>';
+      } else if (empty > 0) {
+        statusEl.innerHTML = '<div class="status-indicator s-yellow"></div><span>Low Stock</span>';
+      } else {
+        statusEl.innerHTML = '<div class="status-indicator s-green"></div><span>Fully Stocked</span>';
+      }
     }
   }
 
