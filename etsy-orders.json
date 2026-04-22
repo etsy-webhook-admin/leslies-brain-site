@@ -1,0 +1,219 @@
+{
+  "_comment": "This is the MOCK source of truth for Etsy orders. Shape matches the real Etsy Open API v3 /shops/{shop_id}/receipts response. When Leslie's real API key arrives, a backend job will overwrite this file (or serve the same shape from a function) and the site will not need to change.",
+  "_source": "mock",
+  "_last_synced": "2026-04-22T00:25:00Z",
+  "shop_id": 12345678,
+  "count": 9,
+  "pending_count": 4,
+  "month_to_date_revenue": 234.99,
+  "currency": "USD",
+  "results": [
+    {
+      "receipt_id": 3102,
+      "status": "Paid",
+      "created_timestamp": 1745373600,
+      "grandtotal": {
+        "amount": 1099,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9102,
+      "is_shipped": false,
+      "transactions": [
+        {
+          "title": "Dark Romance Gothic Print Bundle",
+          "quantity": 1,
+          "price": {
+            "amount": 1099,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3101,
+      "status": "Paid",
+      "created_timestamp": 1745370000,
+      "grandtotal": {
+        "amount": 599,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9101,
+      "is_shipped": false,
+      "transactions": [
+        {
+          "title": "ADHD Hyperfocus Tracker",
+          "quantity": 1,
+          "price": {
+            "amount": 599,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3100,
+      "status": "Paid",
+      "created_timestamp": 1745366400,
+      "grandtotal": {
+        "amount": 499,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9100,
+      "is_shipped": false,
+      "transactions": [
+        {
+          "title": "Mother's Day Bundle Planner - V3",
+          "quantity": 1,
+          "price": {
+            "amount": 499,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3001,
+      "status": "Paid",
+      "created_timestamp": 1745280000,
+      "grandtotal": {
+        "amount": 599,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9001,
+      "is_shipped": false,
+      "transactions": [
+        {
+          "title": "ADHD Executive Function Visual Prompt Planner",
+          "quantity": 1,
+          "price": {
+            "amount": 599,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3002,
+      "status": "Paid",
+      "created_timestamp": 1745193600,
+      "grandtotal": {
+        "amount": 499,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9002,
+      "is_shipped": true,
+      "transactions": [
+        {
+          "title": "Mother's Day Gift Bundle Planner",
+          "quantity": 1,
+          "price": {
+            "amount": 499,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3003,
+      "status": "Paid",
+      "created_timestamp": 1745107200,
+      "grandtotal": {
+        "amount": 1198,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9003,
+      "is_shipped": true,
+      "transactions": [
+        {
+          "title": "Dark Romance Stained Glass Wall Art \u2014 Celestial",
+          "quantity": 2,
+          "price": {
+            "amount": 599,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3004,
+      "status": "Paid",
+      "created_timestamp": 1745020800,
+      "grandtotal": {
+        "amount": 399,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9004,
+      "is_shipped": true,
+      "transactions": [
+        {
+          "title": "Dopamine Cards \u2014 Neurodivergent Positive Reinforcement",
+          "quantity": 1,
+          "price": {
+            "amount": 399,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3005,
+      "status": "Paid",
+      "created_timestamp": 1744934400,
+      "grandtotal": {
+        "amount": 499,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9005,
+      "is_shipped": true,
+      "transactions": [
+        {
+          "title": "Perimenopause Symptom Tracker",
+          "quantity": 1,
+          "price": {
+            "amount": 499,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    },
+    {
+      "receipt_id": 3006,
+      "status": "Paid",
+      "created_timestamp": 1744848000,
+      "grandtotal": {
+        "amount": 599,
+        "divisor": 100,
+        "currency_code": "USD"
+      },
+      "buyer_user_id": 9006,
+      "is_shipped": true,
+      "transactions": [
+        {
+          "title": "ADHD Executive Function Visual Prompt Planner",
+          "quantity": 1,
+          "price": {
+            "amount": 599,
+            "divisor": 100,
+            "currency_code": "USD"
+          }
+        }
+      ]
+    }
+  ]
+}
