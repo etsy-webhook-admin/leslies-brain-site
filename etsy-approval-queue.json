@@ -1,7 +1,7 @@
 {
   "_comment": "Approval queue for the Etsy Command Center. Each cycle (SCOUT->CLOSER) overwrites this queue with today's 3 SCALE products. Leslie approves via the Etsy tab on leslies-brain.netlify.app.",
   "_source": "daily_cycle_2026-04-22",
-  "_last_updated": "2026-04-22T07:00:00Z",
+  "_last_updated": "2026-04-23T20:00:00Z",
   "cycle_date": "2026-04-22",
   "queue": [
     {
