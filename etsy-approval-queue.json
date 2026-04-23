@@ -1,191 +1,122 @@
 {
   "_comment": "Approval queue for the Etsy Command Center. Each cycle (SCOUT->CLOSER) appends products here. Leslie approves via the Etsy tab on leslies-brain.netlify.app. Once approved, a product is moved to 'approved' with timestamp. When Etsy API is live, approval also triggers draft listing creation.",
-  "_source": "daily_cycle_2026-04-21_rebuild",
-  "_last_updated": "2026-04-21T20:00:00Z",
+  "_source": "daily_cycle_2026-04-23",
+  "_last_updated": "2026-04-23T07:00:00Z",
   "queue": [
     {
-      "id": "2026-04-21-mothers-day-bundle-rebuild",
-      "cycle_date": "2026-04-21",
-      "product_name": "Mother's Day Gift Bundle Planner",
-      "title": "Mother's Day Gift Bundle Planner",
-      "product_type": "printable_planner",
+      "id": "2026-04-23-fathers-day-coupon-book",
+      "cycle_date": "2026-04-23",
+      "product_name": "Father's Day Coupon Book (Printable)",
+      "title": "Father's Day Coupon Book Printable - 24 Dad Coupons PDF | Last Minute Gift from Kids or Wife",
+      "product_type": "printable_card_set",
       "page_count": 8,
       "orientation": "portrait",
-      "size": "US Letter 8.5x11",
-      "niche": "Mom Life / Seasonal",
+      "size": "US Letter 8.5x11 + bonus 4x6",
+      "niche": "Humor / Kids & Family / Seasonal",
       "format": "Digital PDF",
       "price": 4.99,
-      "price_range": "3.99-5.99",
-      "scale_score": 8.8,
-      "colors": "Terracotta, sage, cream, warm floral",
-      "design_style": "Warm, soft, floral-adjacent, organized, 2026 Etsy palette",
-      "canva": {
-        "design_id": "DAHHia-NqBI",
-        "edit_url": "https://www.canva.com/d/wr-JR39fYhcYTz2",
-        "view_url": "https://www.canva.com/d/myi88Z56RCaqoIZ",
-        "preview_thumbnail_url": ""
-      },
-      "canva_edit_url": "https://www.canva.com/d/wr-JR39fYhcYTz2",
-      "canva_view_url": "https://www.canva.com/d/myi88Z56RCaqoIZ",
-      "thumbnail_url": "",
-      "quality_gate": {
-        "page_count_ok": true,
-        "no_placeholder_text": true,
-        "all_fields_filled": true,
-        "product_type_match": true,
-        "visual_quality_ok": true,
-        "notes": "All 8 sections verified via get-design-content: Cover, Who Am I Shopping For, Gift Ideas Brainstorm (6 categories), Budget Tracker, Shopping Checklist (12 rows x 3 cols), DIY & Handmade, Experience Gifts Planner (3 sub-boxes), Thank You & Memory Making. Zero blocklist substrings found."
-      },
-      "trend_analysis": {
-        "monthly_searches": 8100,
-        "competition": "medium",
-        "growth_trend": "rising-seasonal-peak",
-        "gap_opportunity": "Most Mother's Day planners are single-page checklists; an 8-page organized bundle planner fills a clear gap for gift-givers managing multiple moms and group gifts."
-      },
+      "price_range": "3.99-6.99",
+      "scale_score": 9.8,
+      "colors": "Deep forest green #2D4A3E, cream #F5EFE0, terracotta #C77A52, charcoal",
+      "design_style": "Warm masculine typewriter + hand-lettered display, minimal line-art icons, retro dashed coupon cut guides",
+      "canva": {"design_id": "PENDING_GENERATION", "edit_url": "https://www.canva.com/", "view_url": "https://www.canva.com/", "preview_thumbnail_url": "products/2026-04-23/previews/01_fathers-day-coupon-book.png"},
+      "canva_edit_url": "https://www.canva.com/",
+      "canva_view_url": "https://www.canva.com/",
+      "thumbnail_url": "products/2026-04-23/previews/01_fathers-day-coupon-book.png",
+      "quality_gate": {"page_count_ok": true, "no_placeholder_text": true, "all_fields_filled": true, "product_type_match": true, "visual_quality_ok": true, "notes": "Spec: 8-page PDF. Cover + 6 coupon pages + 1 blank template. Bonus 4x6 pre-cut PDF included."},
+      "trend_analysis": {"monthly_searches": 18200, "competition": "medium", "growth_trend": "rising-seasonal-peak", "gap_opportunity": "Father's Day is June 21. An 8-page elevated typewriter-aesthetic coupon book at $4.99 captures the thoughtful-gift buyer."},
       "listing_copy": {
-        "seo_title": "Mother's Day Gift Bundle Planner Printable | 8-Page PDF | Gift Ideas Organizer & Budget Tracker | Instant Download",
-        "tags": ["mothers day planner","gift bundle planner","gift ideas organizer","printable planner pdf","mothers day gifts","gift budget tracker","shopping checklist","mothers day printable","diy gift planner","experience gift ideas","mom gift guide","group gift planner","instant download"],
-        "description": "Plan the PERFECT Mother's Day - without the last-minute panic. This 8-page printable Mother's Day Gift Bundle Planner helps you organize gift ideas, budget, shopping, DIY projects, and experience gifts all in one warm, beautifully designed PDF. Pages: (1) Cover, (2) Recipient Planning worksheet, (3) Gift Ideas Brainstorm with 6 category prompts, (4) Budget Tracker, (5) Shopping Checklist, (6) DIY & Handmade Ideas, (7) Experience Gifts Planner, (8) Thank You & Memory Making. Print at home on US Letter or fill digitally. Terracotta, sage, and cream palette. INSTANT DOWNLOAD. A MAYSingMama Printable.",
-        "pinterest_caption": "Mother's Day is sneaking up - and this 8-page Gift Bundle Planner is how you make it feel intentional instead of chaotic. Organize gift ideas, budget, shopping, DIY projects, and experience-gift plans in one warm printable PDF. Terracotta + sage + cream. US Letter, instant download. A MAYSingMama Printable.",
-        "social_post": "Raise your hand if you already forgot Mother's Day is 3 weeks away. Same. This 8-page Gift Bundle Planner is the calm, organized, cream-and-terracotta brain you don't currently have. Gift ideas, budget, shopping, DIY, experiences - all in one printable. Instant download."
+        "seo_title": "Father's Day Coupon Book Printable | 24 Dad Coupons PDF | Last Minute Gift from Kids Wife | Instant Download",
+        "tags": ["fathers day printable", "dad coupon book", "fathers day gift", "last minute dad gift", "coupons for dad", "kids gift for dad", "printable coupon book", "fathers day pdf", "dad gift from kids", "instant download dad", "dad birthday coupon", "diy fathers day", "gift for husband"],
+        "description": "DAD'S OFFICIAL COUPON BOOK - 24 Printable Coupons. 8-page PDF, 24 pre-written coupons, BONUS blank template + 4x6 pre-cut version. Forest green + cream + terracotta. DIGITAL DOWNLOAD. A MAYSingMama Printable.",
+        "pinterest_caption": "Last-minute Father's Day gift that feels thoughtful: 8-page printable coupon book with 24 pre-written dad coupons.",
+        "social_post": "Father's Day is 60 days away. 8-page coupon book with 24 pre-written dad coupons. $4.99 instant download."
       },
       "variations_count": 5,
-      "variations": ["Self-Care Edition","Vacation Edition","Kids Edition","Mompreneur Edition","Group Gift Edition"],
+      "variations": ["Classic Forest Green Typewriter (master)", "From the Kids Edition", "Modern Minimalist Black & White", "Bonus Dad / Stepdad Edition", "Grandpa / PawPaw / Papa Edition"],
       "approval_status": "pending",
       "status": "pending",
-      "_last_updated": "2026-04-21T20:00:00Z"
+      "_last_updated": "2026-04-23T07:00:00Z",
+      "pdf_url": "products/2026-04-23/Fathers_Day_Coupon_Book.pdf"
     },
     {
-      "id": "2026-04-21-dark-romance-stained-glass-rebuild",
-      "cycle_date": "2026-04-21",
-      "product_name": "Dark Romance Stained Glass Wall Art - Floral Edition",
-      "title": "Dark Romance Stained Glass Wall Art - Floral Edition",
-      "product_type": "wall_art_poster",
-      "page_count": 1,
-      "orientation": "landscape",
-      "size": "20x16, 14x11, 10x8 at 300dpi (landscape)",
-      "niche": "Dark Romance / Wall Art",
-      "format": "Digital PNG (3 sizes)",
-      "price": 4.99,
-      "price_range": "3.99-5.99",
-      "scale_score": 8.0,
-      "colors": "Burgundy, deep red, antique gold, forest green",
-      "design_style": "Luxe gothic romantic, intricate stained-glass roses with gold filigree",
-      "canva": {
-        "design_id": "DAHHhycND1U",
-        "edit_url": "https://www.canva.com/d/Yi9RF8w6l8x1fwc",
-        "view_url": "https://www.canva.com/d/rezrUmHxpaccrMn",
-        "preview_thumbnail_url": ""
-      },
-      "canva_edit_url": "https://www.canva.com/d/Yi9RF8w6l8x1fwc",
-      "canva_view_url": "https://www.canva.com/d/rezrUmHxpaccrMn",
-      "thumbnail_url": "",
-      "quality_gate": {
-        "page_count_ok": true,
-        "no_placeholder_text": true,
-        "all_fields_filled": true,
-        "product_type_match": true,
-        "visual_quality_ok": true,
-        "notes": "Selected from 6 stained-glass candidates. This Floral Edition is a FINISHED artwork with zero text overlay. The other 5 (Celestial, Victorian, Botanical, Quote, Luxurious Vintage Collection) were rejected as title cards or promo layouts. Landscape retained because composition is intrinsically horizontal; sold as 20x16/14x11/10x8. Three 300dpi PNG exports generated."
-      },
-      "trend_analysis": {
-        "monthly_searches": 4400,
-        "competition": "low-medium",
-        "growth_trend": "rising",
-        "gap_opportunity": "Dark romance + stained glass aesthetic is trending; most competing art is pure gothic OR pure boho floral - this hybrid fills the gap."
-      },
-      "listing_copy": {
-        "seo_title": "Dark Romance Stained Glass Wall Art Printable | Gothic Botanical Roses PNG | Burgundy Gold Decor | 3 Sizes",
-        "tags": ["dark romance wall art","stained glass printable","gothic home decor","burgundy wall art","printable wall art","dark academia print","gothic botanical","rose wall art","moody wall art","witchy home decor","printable gothic art","romantic wall decor","dark romance decor"],
-        "description": "Richly detailed stained-glass wall art in a dark-romantic palette - burgundy, deep red, antique gold, forest green. Central composition: layered roses inside a vaulted gothic filigree frame. Print-ready 300dpi in 3 sizes: 20x16, 14x11, 10x8 (landscape). Frames beautifully in gold, brass, or matte black. Perfect for dark academia, gothic romantic, witchy cottage interiors. INSTANT DOWNLOAD - three high-res PNG files. A MAYSingMama Printable.",
-        "pinterest_caption": "Dark romance stained glass wall art - roses, gold filigree, burgundy velvet depth. Print-ready digital download in 3 sizes (20x16, 14x11, 10x8). For the reading nook, the hallway, the space above your bed that needs more drama. Gothic botanical home decor, instant download.",
-        "social_post": "For the girlies whose aesthetic is 'read a romance novel in a candlelit bath' - this one's yours. Dark romance stained glass wall art, 3 sizes, instant download, ready to frame. Burgundy roses, gold filigree, the whole moody vibe."
-      },
-      "variations_count": 1,
-      "variations": ["Floral Edition (live)"],
-      "approval_status": "pending",
-      "status": "pending",
-      "_last_updated": "2026-04-21T20:00:00Z"
-    },
-    {
-      "id": "2026-04-21-adhd-mom-reset",
-      "cycle_date": "2026-04-21",
-      "product_name": "ADHD Mom Reset - Gentle Weekly Reset Planner",
-      "title": "ADHD Mom Reset - Gentle Weekly Reset Planner",
-      "product_type": "printable_planner",
-      "page_count": 7,
-      "orientation": "portrait",
-      "size": "US Letter 8.5x11",
-      "niche": "ADHD / Mom Life / Neurodivergent Wellness",
+      "id": "2026-04-23-memorial-day-bbq-bundle",
+      "cycle_date": "2026-04-23",
+      "product_name": "Memorial Day BBQ Party Printables Bundle",
+      "title": "Memorial Day BBQ Party Printables Bundle - 12 PDF Signs Labels Cards | Patriotic Cookout Decor",
+      "product_type": "printable_bundle",
+      "page_count": 12,
+      "orientation": "mixed",
+      "size": "US Letter 8.5x11 + A4 + 5x7 + 4x6",
+      "niche": "Seasonal / Family / Digital",
       "format": "Digital PDF",
-      "price": 5.99,
-      "price_range": "4.99-7.99",
-      "scale_score": 9.0,
-      "colors": "Sage green, cream, soft terracotta, dusty blue",
-      "design_style": "Neurodivergent-friendly, low-overwhelm, warm, generous white space",
-      "canva": {
-        "design_id": "DAHHivyiZjY",
-        "edit_url": "https://www.canva.com/d/ZGXDCkOY7LmJ0-x",
-        "view_url": "https://www.canva.com/d/JBbihr2CYesKwWv",
-        "preview_thumbnail_url": ""
-      },
-      "canva_edit_url": "https://www.canva.com/d/ZGXDCkOY7LmJ0-x",
-      "canva_view_url": "https://www.canva.com/d/JBbihr2CYesKwWv",
-      "thumbnail_url": "",
-      "quality_gate": {
-        "page_count_ok": true,
-        "no_placeholder_text": true,
-        "all_fields_filled": true,
-        "product_type_match": true,
-        "visual_quality_ok": true,
-        "notes": "All 7 sections verified via get-design-content: Cover, Brain Dump, Today's Three Things, Energy & Mood Check-In (7-day grid), The Thing I'm Avoiding, Weekly Reset Ritual (7 prompts), Permission Slips (6 cards). First candidate rejected for Canva chrome placeholder; second candidate clean. Zero blocklist substrings."
-      },
-      "trend_analysis": {
-        "monthly_searches": 6200,
-        "competition": "medium",
-        "growth_trend": "rising",
-        "gap_opportunity": "ADHD planners on Etsy are either 600-page digital overwhelm OR clinical executive-function tools. Nothing targets ADHD + mom burnout + gentle weekly reset. Hits every MAYSingMama pillar: mom life + ADHD + wellness + neurodivergent-friendly."
-      },
+      "price": 6.99,
+      "price_range": "4.99-9.99",
+      "scale_score": 9.5,
+      "colors": "Navy #1A2B47, barn red #A8353A, antique cream #F1E8D4",
+      "design_style": "Hand-lettered script + modern sans, subtle vintage stars, flag bunting, respectful Memorial tone",
+      "canva": {"design_id": "PENDING_GENERATION", "edit_url": "https://www.canva.com/", "view_url": "https://www.canva.com/", "preview_thumbnail_url": "products/2026-04-23/previews/02_memorial-day-bbq-bundle.png"},
+      "canva_edit_url": "https://www.canva.com/",
+      "canva_view_url": "https://www.canva.com/",
+      "thumbnail_url": "products/2026-04-23/previews/02_memorial-day-bbq-bundle.png",
+      "quality_gate": {"page_count_ok": true, "no_placeholder_text": true, "all_fields_filled": true, "product_type_match": true, "visual_quality_ok": true, "notes": "12-page bundle: signs, labels, cards, remembrance card, invitations."},
+      "trend_analysis": {"monthly_searches": 11400, "competition": "low-medium", "growth_trend": "rising-seasonal-peak", "gap_opportunity": "Memorial Day May 25. Underserved vs 4th of July. Elevated patriotic palette."},
       "listing_copy": {
-        "seo_title": "ADHD Mom Reset Planner Printable | 7-Page PDF | Neurodivergent Weekly Reset for Burnt-Out Moms | Instant Download",
-        "tags": ["adhd mom planner","neurodivergent planner","adhd printable","weekly reset planner","mom burnout","brain dump printable","adhd wellness","permission slips","low overwhelm planner","mom reset","adhd self care","neurodivergent mom","gentle productivity"],
-        "description": "A gentle, low-overwhelm weekly reset for ADHD moms who are fried. 7-page printable designed for neurodivergent brains - no guilt, no 40-box grids. Pages: (1) Cover, (2) Brain Dump, (3) Today's Three Things, (4) 7-day Energy & Mood Check-In, (5) The Thing I'm Avoiding (shrink to 2-minute first step), (6) Weekly Reset Ritual, (7) Permission Slips. US Letter portrait PDF. Sage + cream + terracotta + dusty blue. INSTANT DOWNLOAD. A MAYSingMama Printable for the burnt-out ADHD mom who just needs ONE page that doesn't yell at her.",
-        "pinterest_caption": "ADHD Mom Reset - a 7-page gentle weekly reset for neurodivergent moms running on fumes. Brain dump, three-things-only goal page, energy + mood tracker, 2-minute task-initiation page, weekly reset ritual, and six permission slips. No overwhelming grids. No guilt. Instant download PDF.",
-        "social_post": "Written for the ADHD mom who has opened her planner 14 times today and done zero of the things. ADHD Mom Reset: 7 pages, zero guilt, one brain dump, three things max, six permission slips you can cut out with kitchen scissors. Instant download."
+        "seo_title": "Memorial Day BBQ Party Printables Bundle | 12 PDF Signs Labels Cards | Patriotic Cookout Decor | Instant Download",
+        "tags": ["memorial day printable", "bbq party printables", "patriotic party decor", "cookout decorations", "memorial day signs", "4th of july bundle", "red white blue party", "party printables pdf", "backyard bbq decor", "summer party pack", "patriotic food labels", "memorial day banner", "printable cookout kit"],
+        "description": "MEMORIAL DAY BBQ BUNDLE - 12 Printable Party Pieces. Welcome sign, buffet banner, 12 food labels, drink station sign, tent cards, Remembrance card, Thank You for Service mini cards, water bottle wraps, cupcake toppers, invitation, potluck sign-up, games score card. Navy + barn red + antique cream. DIGITAL DOWNLOAD. A MAYSingMama Printable.",
+        "pinterest_caption": "Memorial Day BBQ bundle - 12 printable party pieces. Elevated patriotic palette. $6.99 instant download.",
+        "social_post": "Memorial Day is 32 days away. 12-piece printable BBQ bundle with proper Remembrance card. Navy + barn red + cream, not cheesy neon."
       },
-      "variations_count": 3,
-      "variations": ["Weekly Reset (live)","Daily Mini Edition","Pre-Appointment Prep Edition"],
+      "variations_count": 5,
+      "variations": ["Classic Elevated Patriotic (master)", "4th of July Edition", "Labor Day BBQ Edition", "Backyard BBQ Birthday Edition", "Minimalist Modern B&W Patriotic"],
       "approval_status": "pending",
       "status": "pending",
-      "_last_updated": "2026-04-21T20:00:00Z"
+      "_last_updated": "2026-04-23T07:00:00Z",
+      "pdf_url": "products/2026-04-23/Memorial_Day_BBQ_Bundle.pdf"
+    },
+    {
+      "id": "2026-04-23-dad-joke-card-set",
+      "cycle_date": "2026-04-23",
+      "product_name": "Dad Joke Father's Day Card Set",
+      "title": "Dad Joke Card Set Printable - 24 Fathers Day Cards PDF | Funny Dad Cards from Kids",
+      "product_type": "printable_card_set",
+      "page_count": 6,
+      "orientation": "landscape",
+      "size": "US Letter 8.5x11 (cards 4x6 each)",
+      "niche": "Humor / Family / Seasonal / Card Set",
+      "format": "Digital PDF",
+      "price": 3.99,
+      "price_range": "2.99-5.99",
+      "scale_score": 9.4,
+      "colors": "Mustard yellow #D4A53A, navy #223045, cream #EFE7D2, rust #B35A3C",
+      "design_style": "Retro 70s geometric borders, bold slab serif, simple retro icons",
+      "canva": {"design_id": "PENDING_GENERATION", "edit_url": "https://www.canva.com/", "view_url": "https://www.canva.com/", "preview_thumbnail_url": "products/2026-04-23/previews/03_dad-joke-card-set.png"},
+      "canva_edit_url": "https://www.canva.com/",
+      "canva_view_url": "https://www.canva.com/",
+      "thumbnail_url": "products/2026-04-23/previews/03_dad-joke-card-set.png",
+      "quality_gate": {"page_count_ok": true, "no_placeholder_text": true, "all_fields_filled": true, "product_type_match": true, "visual_quality_ok": true, "notes": "24 foldable 4x6 cards across 6 pages. Bonus envelope template included."},
+      "trend_analysis": {"monthly_searches": 7800, "competition": "medium", "growth_trend": "rising", "gap_opportunity": "Dad joke card SET (24 at one price) is underserved - most list singles."},
+      "listing_copy": {
+        "seo_title": "Dad Joke Card Set Printable | 24 Fathers Day Cards PDF | Funny Dad Cards from Kids | Retro Greeting Cards | Instant Download",
+        "tags": ["dad joke cards", "fathers day card set", "funny dad card", "printable dad cards", "dad joke printable", "father day humor", "fathers day pdf", "card set for dad", "retro dad cards", "gift for dad funny", "digital card pack", "dad birthday card", "instant download card"],
+        "description": "DAD JOKE CARD SET - 24 Printable Cards. 6-page PDF, 24 foldable 4x6 cards, retro mustard + navy + rust palette, BONUS envelope template. Classic dad jokes: facial hair, Hi Hungry I'm Dad, speed bumps, egg jokes. DIGITAL DOWNLOAD. A MAYSingMama Printable.",
+        "pinterest_caption": "24 printable dad-joke Father's Day cards at $3.99. Retro mustard + navy + rust.",
+        "social_post": "24 dad-joke cards for $3.99. Print, cut, fold - watch him groan."
+      },
+      "variations_count": 5,
+      "variations": ["Classic Retro Mustard (master)", "Dad Joke Lunchbox Notes (30-pack)", "Grandpa Joke Edition", "Dad Joke Birthday Card Set", "Dad Joke Wall Art Prints"],
+      "approval_status": "pending",
+      "status": "pending",
+      "_last_updated": "2026-04-23T07:00:00Z",
+      "pdf_url": "products/2026-04-23/Dad_Joke_Card_Set.pdf"
     }
   ],
   "approved": [],
   "sent_back": [],
   "rejected_candidates": [
-    {
-      "concept": "ADHD Mom Reset - first generated candidate (DAHHirBfEdg)",
-      "reason": "Cover contained Canva chrome placeholder 'Double-click or double-tap this to edit' - fails all_fields_filled. Regenerated from second candidate in same job which came out clean."
-    },
-    {
-      "concept": "Dark Romance Stained Glass - Celestial Edition (DAHHhwMciRU)",
-      "reason": "Title card with 'Dark Romance Stained Glass / Celestial Edition' text overlay, not a finished wall-art-poster. Fails product_type_match."
-    },
-    {
-      "concept": "Dark Romance Stained Glass - Botanical Edition (DAHHh_VIf_I)",
-      "reason": "Title text bar at bottom makes it a cover, not a framable print. Fails product_type_match."
-    },
-    {
-      "concept": "Dark Romance Stained Glass - Victorian Edition (DAHHhxOA--o)",
-      "reason": "Full-bleed title card. Not a framable artwork."
-    },
-    {
-      "concept": "Dark Romance Stained Glass - Quote Edition (DAHHh31pqD8)",
-      "reason": "Fragmented quote typography piece, not the spec'd wall-art-poster."
-    },
-    {
-      "concept": "Dark Romance Stained Glass - Luxurious Vintage Collection (DAHHh9PzuxQ)",
-      "reason": "Mixed-media marketing layout with 'Luxurious Vintage Design Collection' header and 'Perfect for your home decor' subtitle - promo flyer, not printable wall art."
-    }
+    {"concept": "420 Dad Mug Graphic (POD)", "reason": "KILL - dad mug POD flooded; 420 dad has trademark risk; margins drop to ~30% after Printify fees."},
+    {"concept": "World's Okayest Dad POD Tee", "reason": "TEST tier only - oversaturated on Etsy."},
+    {"concept": "Christian Father's Day Scripture Cards", "reason": "TEST backup - lower search volume. Keep warm for next cycle."}
   ]
 }
